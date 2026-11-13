@@ -1,6 +1,6 @@
 {
   "bow": {
-    "archive": "C:\\Users\\PC\\AppData\\Local\\Temp\\minecraft-1.21.9-client.jar",
+    "archive": "minecraft-1.21.9-client.jar",
     "entry": "assets/minecraft/textures/item/bow.png",
     "sha256": "1e2cb18545e4ed9286e1120686c3f835d6619b8bd853970f1011163b68426a54"
   },

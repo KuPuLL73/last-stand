@@ -6,7 +6,7 @@ from pathlib import Path
 import zipfile
 from PIL import Image
 
-archive = Path('C:/Users/PC/AppData/Local/Temp/minecraft-1.21.9-client.jar')
+archive = Path('minecraft-1.21.9-client.jar')
 target = Path(__file__).resolve().parents[1] / 'assets' / 'extra-weapons'
 expected = 'ce92fd8d1b2460c41ceda07ae7b3fe863a80d045'
 assert sha1(archive.read_bytes()).hexdigest() == expected, 'Unexpected source archive'

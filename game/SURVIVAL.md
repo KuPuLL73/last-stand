@@ -53,7 +53,6 @@
 
 ## Проверка
 
-Все core-файлы в PowerShell: `$coreTests = @(Get-ChildItem game/tests -File -Filter "*core.test.mjs" | ForEach-Object { $_.FullName }); node --test @coreTests game/tests/menu-music.test.mjs game/tests/music-director.test.mjs game/tests/ranged-assets.test.mjs game/tests/extra-arsenal-assets.test.mjs`. Общий прогон: 158/158. Новые сценарии: `extra-arsenal-gameplay-browser.mjs`, `music-switch-browser.mjs` и `production-combat-smoke.mjs`. Сравнение оружия: `node game/tools/weapon-comparison.mjs`, итоговый отчёт `game/artifacts/weapon-comparison-final.md`. Актуальная точка — `../PROJECT-STATUS-RU.md`.
 
 `node --test game/tests/survival-core.test.mjs` проверяет симуляцию, улучшения, укрытия, опыт, паузы, предупреждения босса и полный забег до победы.
 

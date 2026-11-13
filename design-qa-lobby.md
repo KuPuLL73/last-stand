@@ -6,7 +6,6 @@ final result: passed
 
 This completes the interrupted fog/water/background-cleanup request, retaining the menu style the user already approved. It is not a new redesign.
 
-- Source: `C:/Users/PC/Downloads/Gemini_Generated_Image_.png`, unchanged reference copy `game/artifacts/pixel-audit-reference.png`.
 - Source dimensions: 1376×768 pixels. Implementation: `game/artifacts/lobby-motion-a.png`, 1376×768 CSS px and screenshot px, deviceScaleFactor 1. Main menu, Shelly selected, panels closed.
 - Full-view comparison and focused 1:1 navigation strips in the same image: `game/artifacts/lobby-final-comparison.png`. Full views are both shown at 50%; navigation crops retain source pixels.
 - Focused same-coordinate terrain/ore comparison: `game/artifacts/lobby-background-detail-comparison.png`, before `world-clean.webp` versus final `world-polished-v2.webp`, both 1672×941. Analytical crops only; no source artwork was procedurally repainted.

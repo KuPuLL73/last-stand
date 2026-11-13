@@ -4,8 +4,8 @@ The user supplied two updated tracks on 4 November 2026 and explicitly mapped GA
 
 | Runtime asset | User source | Duration | Source SHA-256 |
 |---|---|---:|---|
-| `menu-theme.mp3` | `C:/Users/PC/Downloads/Telegram Desktop/Game ST Rend 2.mp3` | 158.17 s | `87dda78e8eab86c020d576fda679b9058a7282829be2fb88f12950b0e46b5519` |
-| `battle-theme.mp3` | `C:/Users/PC/Downloads/Telegram Desktop/Mine World ST 2.mp3` | 282.98 s | `e93d9df99eb3bc788886a98a8d69d0c4acd7b7eb6bc5226cdbdb0e694df8848a` |
+| `menu-theme.mp3` | Project audio source | 158.17 s | `87dda78e8eab86c020d576fda679b9058a7282829be2fb88f12950b0e46b5519` |
+| `battle-theme.mp3` | Project audio source | 282.98 s | `e93d9df99eb3bc788886a98a8d69d0c4acd7b7eb6bc5226cdbdb0e694df8848a` |
 
 The source files remain unchanged. Runtime copies were encoded with FFmpeg/libmp3lame at 160 kb/s stereo, without trimming, mixing or loudness changes. This halves their combined size from 17,646,352 to 8,825,295 bytes.
 

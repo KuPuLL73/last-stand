@@ -1,6 +1,5 @@
 # Generated pixel UI frames
 
-Generated with the **built-in `image_gen` tool**, transparent-background mode. The local user-provided image `C:/Users/PC/Downloads/Gemini_Generated_Image_.png` was viewed first and passed as `referenced_image_paths` to both calls. No CLI/API fallback was used.
 
 | Asset | Dimensions | Suggested source nine-slice cuts, top/right/bottom/left |
 |---|---:|---:|

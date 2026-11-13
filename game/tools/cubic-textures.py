@@ -3,7 +3,7 @@ from pathlib import Path
 import io,json,zipfile
 from PIL import Image,ImageChops
 
-jar=Path(r'C:\Users\PC\AppData\Local\Temp\minecraft-1.21.9-client.jar')
+jar=Path('minecraft-1.21.9-client.jar')
 out=Path('game/assets/cubic');out.mkdir(parents=True,exist_ok=True)
 z=zipfile.ZipFile(jar)
 def image(name):

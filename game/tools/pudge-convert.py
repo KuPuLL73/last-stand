@@ -1,7 +1,7 @@
 import bpy,math,json
 from pathlib import Path
 from mathutils import Vector
-root=Path(r'E:/Projects/YANDEX GAME/projects/brawl-zombies')
+root=Path('.')
 src=root/'game/assets/pudge/source/base';out=root/'game/assets/pudge';tex=out/'textures';tex.mkdir(exist_ok=True)
 bpy.ops.wm.read_factory_settings(use_empty=True)
 bpy.ops.import_scene.fbx(filepath=str(src/'pudge_econ.fbx'))
