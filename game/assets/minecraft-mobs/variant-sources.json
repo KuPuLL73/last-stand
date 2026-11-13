@@ -1,0 +1,80 @@
+{
+  "version": "1.21.9",
+  "clientSha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+  "clientUrl": "https://piston-data.mojang.com/v1/objects/ce92fd8d1b2460c41ceda07ae7b3fe863a80d045/client.jar",
+  "textures": [
+    {
+      "file": "zombie-husk.png",
+      "jarPath": "assets/minecraft/textures/entity/zombie/husk.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "317492552dc374f62fe1e7743fdd20a453e6e22b3816a2f7e14963b36c063621"
+    },
+    {
+      "file": "zombie-drowned.png",
+      "jarPath": "assets/minecraft/textures/entity/zombie/drowned.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "82b1692ebb65db35caa2afde8341deee602180e880658aae87210e90b7d9a6d5"
+    },
+    {
+      "file": "zombie-drowned_outer_layer.png",
+      "jarPath": "assets/minecraft/textures/entity/zombie/drowned_outer_layer.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "802a3e46c44ae5117b29162fecb284556c9fe244fa20e8781a27ca766dab7ab6"
+    },
+    {
+      "file": "skeleton-stray.png",
+      "jarPath": "assets/minecraft/textures/entity/skeleton/stray.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "d2f050b01ac0eb319d208db00f53081e2b87ce909be0468802d0ad5ba960b0e1"
+    },
+    {
+      "file": "skeleton-stray_overlay.png",
+      "jarPath": "assets/minecraft/textures/entity/skeleton/stray_overlay.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "0014fbd0fda580f5d3bf97c2bfd761f2ff3d07da50a3d52766c74b0ce8c35823"
+    },
+    {
+      "file": "spider-cave_spider.png",
+      "jarPath": "assets/minecraft/textures/entity/spider/cave_spider.png",
+      "size": [
+        64,
+        32
+      ],
+      "sha256": "02386867edcf8af7d4a205360800991ab6be475dc4c80752c9145efb2699a8ac"
+    }
+  ],
+  "geometry": [
+    {
+      "file": "husk.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/models/entity/husk.geo.json",
+      "sha256": "2ee8798180297ccce177aba8e8923fcfe7095608ff8c2570e562f13201a8d4e7"
+    },
+    {
+      "file": "stray.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/models/entity/stray.geo.json",
+      "sha256": "6e78613813bcea63130752e45ee03047a7466106b56c4f3290a9dc4cf2595a3a"
+    },
+    {
+      "file": "stray_armor.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/models/entity/stray_armor.geo.json",
+      "sha256": "1bf5a6ef5dd72ef23f665f47d9ebb45bc6be25237ce5c57954b77e8465041302"
+    }
+  ],
+  "caveSpiderScaleSource": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/entity/cave_spider.entity.json",
+  "geometryNotes": "Husk/stray source dimensions and UVs come from Mojang Bedrock samples. Java 64x64 humanoid left limb UVs adjusted for Java textures. Drowned uses standard Java humanoid body with separately textured inflated outer shell. Cave spider shares the original spider geometry with the official 0.7 species scale."
+}

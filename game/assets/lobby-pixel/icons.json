@@ -1,0 +1,153 @@
+{
+  "prefix": "lobby-pixel",
+  "width": 24,
+  "height": 24,
+  "info": {
+    "name": "Pixelarticons — selected free icons",
+    "author": "Gerrit Halfmann",
+    "package": "pixelarticons",
+    "version": "2.4.2",
+    "repository": "https://github.com/halfmage/pixelarticons",
+    "documentation": "https://pixelarticons.com/docs/"
+  },
+  "license": {
+    "spdx": "MIT",
+    "file": "LICENSE.pixelarticons.txt",
+    "copyright": "Copyright (c) 2019 Gerrit Halfmann"
+  },
+  "icons": {
+    "shop": {
+      "body": "<path d=\"M3 13h2v8H3zm0 8h18v2H3zm16-8h2v8h-2zm-9-2h4v2h-4zm4-2h4v2h-4zm4 2h4v2h-4zM6 9h4v2H6zm-4 2h4v2H2zM0 5h2v6H0zm22 0h2v6h-2zM0 3h24v2H0zm8 12h8v2H8zm0 2h2v4H8zm6 0h2v4h-2z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M3 13h2v8H3zm0 8h18v2H3zm16-8h2v8h-2zm-9-2h4v2h-4zm4-2h4v2h-4zm4 2h4v2h-4zM6 9h4v2H6zm-4 2h4v2H2zM0 5h2v6H0zm22 0h2v6h-2zM0 3h24v2H0zm8 12h8v2H8zm0 2h2v4H8zm6 0h2v4h-2z\"/>\n</svg>\n",
+      "sourceName": "store-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/store-sharp.svg",
+      "sha256": "d828be93d3e6f234b7fb1b2d21471f775659998711b7c41e4d9ed272db846dbc"
+    },
+    "inventory": {
+      "body": "<path d=\"M3 6h18v2H3zm0 2h2v12H3zm0 12h18v2H3zM19 8h2v12h-2z\"/>\n  <path d=\"M7 16h2v6H7zm8 0h2v6h-2zm-8-2h10v2H7zm0-4h10v2H7zm1-6h2v2H8zm6 0h2v2h-2zM8 2h8v2H8z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M3 6h18v2H3zm0 2h2v12H3zm0 12h18v2H3zM19 8h2v12h-2z\"/>\n  <path d=\"M7 16h2v6H7zm8 0h2v6h-2zm-8-2h10v2H7zm0-4h10v2H7zm1-6h2v2H8zm6 0h2v2h-2zM8 2h8v2H8z\"/>\n</svg>\n",
+      "sourceName": "backpack-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/backpack-sharp.svg",
+      "sha256": "9de421b754c96a1738865354ff97950d6869a67667bb8603f0fb85b3fd8c3060"
+    },
+    "leaderboard": {
+      "body": "<path d=\"M4 20h18v2H4zM2 2h2v20H2zm5 4h2v12H7zm5 4h2v8h-2zm5 4h2v4h-2z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M4 20h18v2H4zM2 2h2v20H2zm5 4h2v12H7zm5 4h2v8h-2zm5 4h2v4h-2z\"/>\n</svg>\n",
+      "sourceName": "chart-column-decreasing-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/chart-column-decreasing-sharp.svg",
+      "sha256": "95f787eb61ddd04f247af03997b50e01c327116c45c771fe426871beb7e854b6"
+    },
+    "achievements": {
+      "body": "<path d=\"M18 5H22V13H18V17H13V19H15V21H9V19H11V17H6V13H2V5H6V3H18V5ZM8 15H16V5H8V15ZM4 11H6V7H4V11ZM18 11H20V7H18V11Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n<path d=\"M18 5H22V13H18V17H13V19H15V21H9V19H11V17H6V13H2V5H6V3H18V5ZM8 15H16V5H8V15ZM4 11H6V7H4V11ZM18 11H20V7H18V11Z\"/>\n</svg>\n",
+      "sourceName": "trophy-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/trophy-sharp.svg",
+      "sha256": "960eb542005805c8acc3a3c2fc51a9a4ad54b371a01c241350d23dfa81ff2ae7"
+    },
+    "settings": {
+      "body": "<path d=\"M4 20h3v-2h4v4h2v-4h4v2h-2v4H9v-4H7v2H2v-5h2v3Zm18 2h-5v-2h3v-3h2v5ZM6 11H2v2h4v4H4v-2H0V9h4V7h2v4Zm14-2h4v6h-4v2h-2v-4h4v-2h-4V7h2v2Zm-6 7h-4v-2h4v2Zm-4-2H8v-4h2v4Zm6 0h-2v-4h2v4Zm-2-4h-4V8h4v2ZM7 4H4v3H2V2h5v2Zm8 0h2V2h5v5h-2V4h-3v2h-4V2h-2v4H7V4h2V0h6v4Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M4 20h3v-2h4v4h2v-4h4v2h-2v4H9v-4H7v2H2v-5h2v3Zm18 2h-5v-2h3v-3h2v5ZM6 11H2v2h4v4H4v-2H0V9h4V7h2v4Zm14-2h4v6h-4v2h-2v-4h4v-2h-4V7h2v2Zm-6 7h-4v-2h4v2Zm-4-2H8v-4h2v4Zm6 0h-2v-4h2v4Zm-2-4h-4V8h4v2ZM7 4H4v3H2V2h5v2Zm8 0h2V2h5v5h-2V4h-3v2h-4V2h-2v4H7V4h2V0h6v4Z\"/></svg>",
+      "sourceName": "settings-cog",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/settings-cog.svg",
+      "sha256": "0cd460e87e94dcf2d8481166ca15f6d55a7454e5f5c8fb47a296fd2f94753802"
+    },
+    "help": {
+      "body": "<path d=\"M18 22H6V20H18V22ZM6 20H4V18H6V20ZM20 20H18V18H20V20ZM4 18H2V6H4V18ZM13 18H11V16H13V18ZM22 18H20V6H22V18ZM15 13H13V15H11V11H15V13ZM17 11H15V8H17V11ZM9 10H7V8H9V10ZM15 8H9V6H15V8ZM6 6H4V4H6V6ZM20 6H18V4H20V6ZM18 4H6V2H18V4Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M18 22H6V20H18V22ZM6 20H4V18H6V20ZM20 20H18V18H20V20ZM4 18H2V6H4V18ZM13 18H11V16H13V18ZM22 18H20V6H22V18ZM15 13H13V15H11V11H15V13ZM17 11H15V8H17V11ZM9 10H7V8H9V10ZM15 8H9V6H15V8ZM6 6H4V4H6V6ZM20 6H18V4H20V6ZM18 4H6V2H18V4Z\"/></svg>",
+      "sourceName": "circle-question",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/circle-question.svg",
+      "sha256": "c225eee40873a64895b9b2ccfd1bbdabc9cf3cb6d49ad6320948763c74708f59"
+    },
+    "music": {
+      "body": "<path d=\"M2 12h8v2H2zm0 2h2v4H2zm0 4h8v2H2z\"/>\n  <path d=\"M8 6h2v12H8zm10 0h2v12h-2zm-6 8h2v4h-2z\"/>\n  <path d=\"M12 12h8v2h-8zm0 6h8v2h-8zM8 4h12v2H8z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M2 12h8v2H2zm0 2h2v4H2zm0 4h8v2H2z\"/>\n  <path d=\"M8 6h2v12H8zm10 0h2v12h-2zm-6 8h2v4h-2z\"/>\n  <path d=\"M12 12h8v2h-8zm0 6h8v2h-8zM8 4h12v2H8z\"/>\n</svg>\n",
+      "sourceName": "music-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/music-sharp.svg",
+      "sha256": "721b46da44dda3d1a256b3bf727143607bd766460e7d858d4e93be35dabde4ef"
+    },
+    "swap": {
+      "body": "<path d=\"M17 5h2v2h-2zM5 17h2v2H5zm6-14h2v6h-2zM9 1h2v8H9zm0 8h2v2H9zm10 8H9v2h10zM5 5H3v14h2z\"/>\n  <path d=\"M13 15h-2v6h2zm2-2h-2v8h2zm0 8h-2v2h2zM5 5h10v2H5zm14 14h2V5h-2z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M17 5h2v2h-2zM5 17h2v2H5zm6-14h2v6h-2zM9 1h2v8H9zm0 8h2v2H9zm10 8H9v2h10zM5 5H3v14h2z\"/>\n  <path d=\"M13 15h-2v6h2zm2-2h-2v8h2zm0 8h-2v2h2zM5 5h10v2H5zm14 14h2V5h-2z\"/>\n</svg>\n",
+      "sourceName": "repeat-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/repeat-sharp.svg",
+      "sha256": "f4d445f0a73cf7d9bfaeb63c6698f2227a9158da3af6e934015afbf5441cf7ff"
+    },
+    "play": {
+      "body": "<path d=\"M15 11h-2V9h2zm0 4h-2v-2h2zm-2 2h-2v-2h2zm0-8h-2V7h2zm-2-2H9V5h2zM9 21H7V3h2zm6-8h2v-2h-2zm-6 4h2v2H9z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M15 11h-2V9h2zm0 4h-2v-2h2zm-2 2h-2v-2h2zm0-8h-2V7h2zm-2-2H9V5h2zM9 21H7V3h2zm6-8h2v-2h-2zm-6 4h2v2H9z\"/>\n</svg>\n",
+      "sourceName": "play",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/play.svg",
+      "sha256": "8eec58406f163768ae14decd69026746ec07baedfd90ab49e3832bf9b14aff65"
+    },
+    "gems": {
+      "body": "<path d=\"M7 1h10v2H7zM5 3h2v2H5zm12 0h2v2h-2zm2 2h2v2h-2zm0 8h2v2h-2zm-2 2h2v2h-2zm-2 2h2v2h-2zm-2 2h2v2h-2zm-2 2h2v2h-2zm-2-2h2v2H9zm-2-2h2v2H7zm-2-2h2v2H5zm-2-2h2v2H3zm0-8h2v2H3zM1 7h2v6H1zm20 0h2v6h-2zM3 9h18v2H3zm6-6h2v3H9zM7 6h2v3H7zm8 0h2v3h-2zm-8 5h2v2H7zm2 2h2v3H9zm2 3h2v3h-2zm2-3h2v3h-2zm2-2h2v2h-2zm-2-8h2v3h-2z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M7 1h10v2H7zM5 3h2v2H5zm12 0h2v2h-2zm2 2h2v2h-2zm0 8h2v2h-2zm-2 2h2v2h-2zm-2 2h2v2h-2zm-2 2h2v2h-2zm-2 2h2v2h-2zm-2-2h2v2H9zm-2-2h2v2H7zm-2-2h2v2H5zm-2-2h2v2H3zm0-8h2v2H3zM1 7h2v6H1zm20 0h2v6h-2zM3 9h18v2H3zm6-6h2v3H9zM7 6h2v3H7zm8 0h2v3h-2zm-8 5h2v2H7zm2 2h2v3H9zm2 3h2v3h-2zm2-3h2v3h-2zm2-2h2v2h-2zm-2-8h2v3h-2z\"/>\n</svg>\n",
+      "sourceName": "diamond-gem",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/diamond-gem.svg",
+      "sha256": "92f05d3f9be9ec455a045497c4474370b90a147227c18b9ee235084230e3a3b4"
+    },
+    "skull": {
+      "body": "<path d=\"M5 20h14v2H5zm4-4h2v4H9zm4 0h2v4h-2zm-8-2h2v6H5zm12 0h2v6h-2z\"/>\n  <path d=\"M3 14h4v2H3zM1 2h2v14H1zm20 0h2v14h-2zM3 2h18v2H3zm14 12h4v2h-4zM8 7h2v4H8zm6 0h2v4h-2z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M5 20h14v2H5zm4-4h2v4H9zm4 0h2v4h-2zm-8-2h2v6H5zm12 0h2v6h-2z\"/>\n  <path d=\"M3 14h4v2H3zM1 2h2v14H1zm20 0h2v14h-2zM3 2h18v2H3zm14 12h4v2h-4zM8 7h2v4H8zm6 0h2v4h-2z\"/>\n</svg>\n",
+      "sourceName": "skull-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/skull-sharp.svg",
+      "sha256": "39a85143d067b4d43f24a1e6f55c2751d5d2a002e6c3bd1a7c3ab6ca86fe158d"
+    },
+    "sword": {
+      "body": "<path d=\"M11 2h2v2h-2zM9 4h2v12H9zm4 0h2v12h-2zM7 16h10v2H7zm4 2h2v4h-2z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M11 2h2v2h-2zM9 4h2v12H9zm4 0h2v12h-2zM7 16h10v2H7zm4 2h2v4h-2z\"/>\n</svg>\n",
+      "sourceName": "sword",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/sword.svg",
+      "sha256": "8ce6ef06322454c1ea2bb1b5967ef8547e6b5f00e691a10fe45c99120a6ea05e"
+    },
+    "shield": {
+      "body": "<path d=\"M2 2h20v2H2zm0 2h2v10H2zm18 0h2v10h-2zM4 14h2v2H4zm2 2h2v2H6zm4 4h4v2h-4zm10-6h-2v2h2zm-2 2h-2v2h2zm-2 2h-2v2h2zm-6 0H8v2h2z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M2 2h20v2H2zm0 2h2v10H2zm18 0h2v10h-2zM4 14h2v2H4zm2 2h2v2H6zm4 4h4v2h-4zm10-6h-2v2h2zm-2 2h-2v2h2zm-2 2h-2v2h2zm-6 0H8v2h2z\"/>\n</svg>\n",
+      "sourceName": "shield-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/shield-sharp.svg",
+      "sha256": "492da8b177f75a196330d5b746cce4bb5174328e3bab0e4f0fe465f8a680f3a3"
+    },
+    "sparkle": {
+      "body": "<path d=\"M11 1h2v4h-2zm0 22h2v-4h-2zM9 5h2v4H9zm0 14h2v-4H9zm4-14h2v4h-2zm0 14h2v-4h-2zM5 9h4v2H5zm14 0h-4v2h4zM1 11h4v2H1zm22 0h-4v2h4zM5 13h4v2H5zm14 0h-4v2h4z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M11 1h2v4h-2zm0 22h2v-4h-2zM9 5h2v4H9zm0 14h2v-4H9zm4-14h2v4h-2zm0 14h2v-4h-2zM5 9h4v2H5zm14 0h-4v2h4zM1 11h4v2H1zm22 0h-4v2h4zM5 13h4v2H5zm14 0h-4v2h4z\"/>\n</svg>\n",
+      "sourceName": "sparkle",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/sparkle.svg",
+      "sha256": "1fcf7d3af2543118526a9f7a658e92bc9aa7a7b5e56ca723a43c0b69b717e49d"
+    },
+    "close": {
+      "body": "<path d=\"M7 19H5V17H7V19ZM19 19H17V17H19V19ZM9 15V17H7V15H9ZM17 17H15V15H17V17ZM11 15H9V13H11V15ZM15 15H13V13H15V15ZM13 13H11V11H13V13ZM11 11H9V9H11V11ZM15 11H13V9H15V11ZM9 9H7V7H9V9ZM17 9H15V7H17V9ZM7 7H5V5H7V7ZM19 7H17V5H19V7Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n<path d=\"M7 19H5V17H7V19ZM19 19H17V17H19V19ZM9 15V17H7V15H9ZM17 17H15V15H17V17ZM11 15H9V13H11V15ZM15 15H13V13H15V15ZM13 13H11V11H13V13ZM11 11H9V9H11V11ZM15 11H13V9H15V11ZM9 9H7V7H9V9ZM17 9H15V7H17V9ZM7 7H5V5H7V7ZM19 7H17V5H19V7Z\"/>\n</svg>\n",
+      "sourceName": "close",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/close.svg",
+      "sha256": "9944c7d86468bffbcabdf3e94e03736b58eb0f8a38dba7844201a048f2d2aa6e"
+    },
+    "check": {
+      "body": "<path d=\"M10 18H8v-2h2v2Zm-2-2H6v-2h2v2Zm4-2v2h-2v-2h2Zm-6 0H4v-2h2v2Zm8 0h-2v-2h2v2Zm2-2h-2v-2h2v2Zm2-2h-2V8h2v2Zm2-2h-2V6h2v2Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M10 18H8v-2h2v2Zm-2-2H6v-2h2v2Zm4-2v2h-2v-2h2Zm-6 0H4v-2h2v2Zm8 0h-2v-2h2v2Zm2-2h-2v-2h2v2Zm2-2h-2V8h2v2Zm2-2h-2V6h2v2Z\"/>\n</svg>\n",
+      "sourceName": "check",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/check.svg",
+      "sha256": "539e0df8b4519ae07a2d803d10b27be6343819a7912f0c038745cfa65fcd37db"
+    },
+    "music-off": {
+      "body": "<path d=\"M13 22h-2v-2H9v-2h2V6H9V4h2V2h2v20Zm-4-4H7v-2h2v2Zm-2-8H5v4h2v2H3V8h4v2Zm10.001 5.224h-2v-2H17v-2h-1.999v-2h2v2H19v2h-1.999v2Zm3.999 0h-2v-2h2v2Zm0-4h-2v-2h2v2ZM9 8H7V6h2v2Z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"currentColor\" viewBox=\"0 0 24 24\"><path d=\"M13 22h-2v-2H9v-2h2V6H9V4h2V2h2v20Zm-4-4H7v-2h2v2Zm-2-8H5v4h2v2H3V8h4v2Zm10.001 5.224h-2v-2H17v-2h-1.999v-2h2v2H19v2h-1.999v2Zm3.999 0h-2v-2h2v2Zm0-4h-2v-2h2v2ZM9 8H7V6h2v2Z\"/></svg>",
+      "sourceName": "volume-x",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/volume-x.svg",
+      "sha256": "60bbd5e0c07c37b865e80f1b07a2220211448c6e794b876b60042eb5b014eb59"
+    },
+    "back": {
+      "body": "<path d=\"M20 11v2H4v-2zM8 13v2H6v-2zm2 2v2H8v-2zm2 2v2h-2v-2zm-4-6V9H6v2z\"/>\n  <path d=\"M10 15V7H8v8zm2 2V5h-2v12z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M20 11v2H4v-2zM8 13v2H6v-2zm2 2v2H8v-2zm2 2v2h-2v-2zm-4-6V9H6v2z\"/>\n  <path d=\"M10 15V7H8v8zm2 2V5h-2v12z\"/>\n</svg>\n",
+      "sourceName": "arrow-left",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/arrow-left.svg",
+      "sha256": "e97c564d0b86da241d52b980c21f5ec568e28cc3f25a4dc101963064838c6aba"
+    },
+    "crown": {
+      "body": "<path d=\"M3 3h2v12H3zm16 0h2v12h-2zm-8 0h2v2h-2zM9 5h2v2H9zM5 5h2v2H5z\"/>\n  <path d=\"M3 3h2v2H3zm4 4h2v2H7zm6-2h2v2h-2zm2 2h2v2h-2zm2-2h2v2h-2zM3 15h18v2H3zm0 4h18v2H3z\"/>",
+      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n  <path d=\"M3 3h2v12H3zm16 0h2v12h-2zm-8 0h2v2h-2zM9 5h2v2H9zM5 5h2v2H5z\"/>\n  <path d=\"M3 3h2v2H3zm4 4h2v2H7zm6-2h2v2h-2zm2 2h2v2h-2zm2-2h2v2h-2zM3 15h18v2H3zm0 4h18v2H3z\"/>\n</svg>\n",
+      "sourceName": "crown-sharp",
+      "source": "https://unpkg.com/pixelarticons@2.4.2/svg/crown-sharp.svg",
+      "sha256": "bf18993e6ac91ce19e06d17da3507b904a70cee25cc5f9c97e04c5c24d17328a"
+    }
+  }
+}

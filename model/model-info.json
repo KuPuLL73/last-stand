@@ -1,0 +1,13 @@
+{
+  "character": "Spike fan model",
+  "source": "procedural original mesh; reference image only, no downloaded 3D mesh",
+  "triangles": 118504,
+  "meshObjects": 6,
+  "bones": 7,
+  "animations": [
+    "Idle",
+    "Attack"
+  ],
+  "materials": 13,
+  "reference": "https://cdn.brawlify.com/brawlers/model/16000005.png"
+}

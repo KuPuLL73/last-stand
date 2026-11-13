@@ -1,0 +1,43 @@
+{
+  "version": "1.21.9",
+  "archive": "C:/Users/PC/AppData/Local/Temp/minecraft-1.21.9-client.jar",
+  "clientSha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+  "items": [
+    {
+      "file": "crossbow_standby.png",
+      "archivePath": "assets/minecraft/textures/item/crossbow_standby.png",
+      "sha256": "6ea28ffcdf20314406cfaddcf9c1684523ff27211a482e6a709c2bd4543bb468"
+    },
+    {
+      "file": "crossbow_pulling_0.png",
+      "archivePath": "assets/minecraft/textures/item/crossbow_pulling_0.png",
+      "sha256": "3b44562422ec284a40e134e951dcfa91b275e1c975fbddeb518b7d91aba3620d"
+    },
+    {
+      "file": "crossbow_pulling_1.png",
+      "archivePath": "assets/minecraft/textures/item/crossbow_pulling_1.png",
+      "sha256": "869652b27cc01ef3979b6e434994ecd37ec73b69b32283567869b27dcf6f563d"
+    },
+    {
+      "file": "crossbow_pulling_2.png",
+      "archivePath": "assets/minecraft/textures/item/crossbow_pulling_2.png",
+      "sha256": "acbb870797ea4aa2f448893018328c6a99d9dc5e8d878e87ba9a7faf9a48abb7"
+    },
+    {
+      "file": "crossbow_arrow.png",
+      "archivePath": "assets/minecraft/textures/item/crossbow_arrow.png",
+      "sha256": "7f7f3e60edfee7ad1f437f0542c7ad5d6e54e0ae67e902e0c44a5290c57ae349"
+    },
+    {
+      "file": "blaze_rod.png",
+      "archivePath": "assets/minecraft/textures/item/blaze_rod.png",
+      "sha256": "c00637afed86e5ea5273e7591abe285ef493949860915b645f52123e7c935f52"
+    },
+    {
+      "file": "feather.png",
+      "archivePath": "assets/minecraft/textures/item/feather.png",
+      "sha256": "36e6f12de8ddabd5c1f58c2b99feb2be4f1a13a46a74525e68a06a3e7cf88cd1"
+    }
+  ],
+  "notes": "Hunting bow reuses the existing original bow pixels. Ember staff uses the original blaze rod item, extruded with the same voxel item pipeline; it is an invented game weapon."
+}

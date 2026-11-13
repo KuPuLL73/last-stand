@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#102b31"><title>Последний рубеж — выживание</title></head>
+<body>
+<div id="world" aria-label="Арена выживания"></div>
+<div class="hud" id="hud">
+ <section class="hero-panel" aria-label="Здоровье и опыт героя"><img id="hero-portrait" src="./shelly/reference/shelly-official-render.png" alt="Персонаж"><div class="hero-data"><div class="hero-title"><b id="hero-name">ШЕЛЛИ</b><span id="hero-level">УР. 1</span></div><div class="health-track"><i id="health-fill"></i><small id="health-text">100 / 100</small></div><div class="xp-row"><span class="xp-caption">XP</span><div class="xp-track"><i id="xp-fill"></i></div><span id="xp-text">0 / 9</span><span id="level-label" hidden>УРОВЕНЬ 1</span></div></div></section>
+ <section class="clock-panel"><span id="wave-label">ВОЛНА 1</span><b id="clock">04:00</b><small id="clock-caption">ДО ПРИХОДА БОССА</small></section>
+ <section class="right-panel"><div class="run-progress"><b id="run-progress-label">ДО БОССА</b><small id="run-progress-detail">03:00</small></div><div class="kill-counter"><span>ВРАГОВ УБИТО</span><span class="kill-value"><img id="kills-icon" alt="" width="17" height="17"><b id="kills">0</b></span></div><button id="sound" aria-label="Звук" aria-pressed="true"></button><button id="pause" aria-label="Пауза"></button></section>
+</div>
+<div id="buffs" class="buffs" aria-label="Способности и усиления"></div>
+<div id="boss-hud" hidden><div><b>МОГИЛЬЩИК</b><span id="boss-hp-text"></span></div><div class="boss-track"><i id="boss-hp-fill"></i></div></div>
+<div id="notifications" aria-live="polite"></div>
+<div id="pickup-hint" hidden aria-hidden="true"><span></span><div><b></b><small></small></div></div>
+<div id="damage-layer" aria-hidden="true"></div><div id="hurt-flash" aria-hidden="true"></div>
+<div id="touch-controls"><div class="move-control"><div id="move-stick" class="stick" aria-label="Джойстик движения"><i></i><span>↕</span></div><small>ДВИЖЕНИЕ</small></div></div>
+<div class="bottom-bar"><div class="build-panel" id="build-panel"><span id="build-hint">ТВОЯ СБОРКА</span><div class="build-loadout"><span class="build-equipped"><img id="build-weapon-image" alt="Оружие героя" width="32" height="32"><b id="build-weapon-rank" hidden></b></span><div id="build-items"></div></div><small id="hero-weapon">ДРОБОВИК</small></div><button id="super" aria-label="Супер Шелли"><span id="super-icon"></span><b id="super-label">СУПЕР</b><small id="super-state">ГОТОВО</small><kbd>ПРОБЕЛ</kbd><i id="ability-fill"></i></button></div>
+<div id="menu" class="overlay lobby" data-view="ready">
+ <header class="lobby-header">
+  <div class="lobby-brand" role="img" aria-label="Последний рубеж"><span id="lobby-crest"></span><div><small hidden>ГЕРОИ РАЗНЫХ МИРОВ</small><b>ПОСЛЕДНИЙ<br><em>РУБЕЖ</em></b></div></div>
+  <div class="lobby-tools"><div class="lobby-wallet" title="Осколки — награда за забеги"><span id="wallet-icon"></span><div><small hidden>ОСКОЛКИ</small><b id="wallet-value">0</b></div></div><button id="menu-settings" aria-label="Настройки"></button><button id="menu-help" aria-label="Как играть">?</button><button id="menu-sound" aria-label="Звук в меню" aria-pressed="true">♪</button></div>
+ </header>
+ <div class="lobby-flavor" hidden><span class="lobby-season">SURVIVAL / ПЕРВЫЙ РАЗЛОМ</span><h2>ТВОЙ ГЕРОЙ.<br>ТВОИ ПРАВИЛА.</h2><p>Миры столкнулись.<br>Посмотрим, кто выстоит.</p><div class="lobby-live"><i></i>ГОТОВ К НОВОМУ ЗАБЕГУ</div></div>
+ <div class="lobby-hero-tag"><span class="lobby-class" id="lobby-hero-class" hidden></span><button id="change-hero" aria-label="Сменить героя"><img id="change-hero-image" alt=""><span id="lobby-hero-name">СТИВ</span><span class="swap-label" aria-hidden="true">⇄</span></button><div id="character-picker" class="character-picker" hidden><div class="character-options"><button type="button" data-character="steve" aria-pressed="true"><img class="steve-portrait" alt="Стив"></button><button type="button" data-character="shelly" aria-pressed="false"><img alt="Шелли"></button><button type="button" data-character="pudge" hidden disabled><small id="pudge-load-label"></small></button></div><p id="character-detail" hidden></p></div></div>
+ <div class="lobby-showcase" aria-label="Повернуть модель героя"></div>
+ <div class="lobby-record" hidden><span>ЛИЧНЫЙ РЕКОРД</span><b id="lobby-best-kills">0</b><small>ПОБЕЖДЁННЫХ ВРАГОВ</small><div id="best-record"></div></div>
+ <nav class="lobby-nav" aria-label="Главное меню">
+  <button class="lobby-nav-button" data-panel="shop"><span class="nav-icon" id="nav-shop-icon"></span><b>Магазин</b></button>
+  <button class="lobby-nav-button" data-panel="inventory"><span class="nav-icon" id="nav-inventory-icon"></span><b>Инвентарь</b></button>
+  <div id="nav-play-slot"><button id="start" class="primary lobby-play" disabled><span>ИГРАТЬ</span><b aria-hidden="true">▶</b></button></div>
+  <button class="lobby-nav-button" data-panel="leaderboard"><span class="nav-icon" id="nav-leaderboard-icon"></span><b>Лидерборд</b></button>
+  <button class="lobby-nav-button" data-panel="achievements"><span class="nav-icon" id="nav-achievements-icon"></span><b>Достижения</b><i id="achievement-dot" hidden></i></button>
+ </nav>
+ <section id="run-summary" class="run-summary interface-frame" hidden><div class="eyebrow" id="menu-eyebrow" hidden></div><h1 id="menu-title"></h1><p id="menu-description"></p><div id="result-stats" hidden></div><div id="result-reward" hidden></div><div id="summary-primary"></div><div class="summary-secondary"><button id="restart" class="text-button" hidden>Начать заново</button><button id="back-lobby" class="text-button">В лобби</button></div></section>
+ <footer class="lobby-footer" hidden><span>ДВА МИРА. ОДИН РУБЕЖ.</span><span>ПРОТОТИП · v0.7</span></footer>
+</div>
+<dialog id="lobby-panel" class="lobby-panel interface-frame" aria-labelledby="panel-title"><div class="panel-top"><div><span id="panel-eyebrow" hidden></span><h2 id="panel-title">Выбери режим</h2></div><button id="panel-close" aria-label="Закрыть раздел">×</button></div><div id="panel-content"></div></dialog>
+<div id="upgrade-overlay" class="overlay upgrade-overlay" hidden><section class="upgrade-sheet interface-frame"><h2>Улучшение</h2><p id="upgrade-description">Выбери одно улучшение</p><div id="combo-progress" class="combo-progress" role="group" aria-label="Условия комбинации" hidden></div><div id="upgrade-choices"></div></section></div>
+<script type="module" src="/game/survival.js"></script>
+</body></html>

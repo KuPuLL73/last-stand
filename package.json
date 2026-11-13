@@ -1,0 +1,17 @@
+{
+  "name": "brawl-zombies-prototype",
+  "version": "0.11.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5190 --strictPort",
+    "build": "vite build",
+    "dev:lan": "vite --host 0.0.0.0 --port 5190 --strictPort"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "vite": "6.4.4"
+  }
+}

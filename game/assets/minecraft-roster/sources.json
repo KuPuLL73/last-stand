@@ -1,0 +1,549 @@
+{
+  "date": "2026-11-03",
+  "minecraftVersion": "1.21.9",
+  "clientSha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+  "bedrockCommit": "15701fa9c13923f12662984c32c124327e40e3d3",
+  "geometries": [
+    {
+      "file": "zombie_villager_v2.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/zombie_villager_v2.geo.json",
+      "sha256": "41a31ce8e79011b27af04d9021176b359182471dab5baa55e0ac096798d2f0cd"
+    },
+    {
+      "file": "wither_skeleton.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/wither_skeleton.geo.json",
+      "sha256": "9a0a512aa7cc834852bcc44765c0fbd39993f44bc47b80e7d797cb867b9480f3"
+    },
+    {
+      "file": "bogged.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/bogged.geo.json",
+      "sha256": "fa88d2bf03c4b487d19630b7509a8bb0d795c5513833c2cb9535dae58820fda6"
+    },
+    {
+      "file": "bogged_armor.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/bogged_armor.geo.json",
+      "sha256": "ddf45800a58db98898c6c0983fe4a5bb7cd1ed844c678664f9c0d9e325d872d0"
+    },
+    {
+      "file": "pillager.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/pillager.geo.json",
+      "sha256": "f8845b01c0fd100e5c90d59dee48c26863bb44b9d070e9fff06ba2e4d3fcfc71"
+    },
+    {
+      "file": "vindicator.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/vindicator.geo.json",
+      "sha256": "d6eed26f5d983881e1b2d6b9751fd9727e63a368495e05e956e65fc065a0ea7b"
+    },
+    {
+      "file": "evoker.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/evoker.geo.json",
+      "sha256": "c5f149fb2ebbcf9dd764053aca4d15f54fbf3aa241718e94a6a3373f7ca22362"
+    },
+    {
+      "file": "witch.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/witch.geo.json",
+      "sha256": "36fe685464e6c4c839e8167ed9b5bb376e5bbf6e07d04a1cc7ab41590179400e"
+    },
+    {
+      "file": "enderman.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/enderman.geo.json",
+      "sha256": "e09e2e49c456456ef8605c5ef8432571f1714e6f7636cb349367318398b35072"
+    },
+    {
+      "file": "slime.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/slime.geo.json",
+      "sha256": "2406656a9a60b5b650096f7f6d97806d91b8e7e20860717601f4d2df9324cfde"
+    },
+    {
+      "file": "slime_armor.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/slime_armor.geo.json",
+      "sha256": "42dec2fd30200782001663417fac1d3945a088714ef096b22986db7c47227015"
+    },
+    {
+      "file": "magma_cube.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/magma_cube.geo.json",
+      "sha256": "b3ba22a2f3b11f00cca0b95417c70a3e583988298c84de4840029248d1e328f1"
+    },
+    {
+      "file": "blaze.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/blaze.geo.json",
+      "sha256": "edc1508a7b6d972a038ea4d8514a9876c7de9068823666ff7ecbd2c811a0290d"
+    },
+    {
+      "file": "breeze.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/breeze.geo.json",
+      "sha256": "e8ecf8a26b38a1367dd496c793e720aa965537f196b87f2eb0ebb0684b7d4737"
+    },
+    {
+      "file": "ghast.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/ghast.geo.json",
+      "sha256": "15142c9b384b65b947153d8960ae157964ac852b20e6601b68d90ada187dd4f2"
+    },
+    {
+      "file": "phantom.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/phantom.geo.json",
+      "sha256": "4cfb1c28f5729a39f6983b2b13519ffe11db42f5c2932506aac7120b4ce48a25"
+    },
+    {
+      "file": "silverfish.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/silverfish.geo.json",
+      "sha256": "7f75af58b2884256e8827201c8e513b8829ea3bde18207b666b2dd4742a9d1e5"
+    },
+    {
+      "file": "endermite.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/endermite.geo.json",
+      "sha256": "e6997a3b643886b75f280fcf769c61965f1ec02226ee58c19f499ee4fb916b08"
+    },
+    {
+      "file": "guardian.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/guardian.geo.json",
+      "sha256": "300bb0b5a087b5f75f76040a1afa26ad8b1a3b3d9000645bc729231e6be55bff"
+    },
+    {
+      "file": "shulker.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/shulker.geo.json",
+      "sha256": "e203b0cf1d9924e75ff9e01bbe26d34ba458780670fea3c25b40c6b710bf1b00"
+    },
+    {
+      "file": "vex.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/vex.geo.json",
+      "sha256": "735469ea315b9e3432388c607ad14caca368b8d2c58e0a8f94ae9b93813ca638"
+    },
+    {
+      "file": "hoglin.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/hoglin.geo.json",
+      "sha256": "b5181a7649b0056342d5467a79ec299a3e2c5f96f5e847835056c6e3b2947862"
+    },
+    {
+      "file": "piglin.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/piglin.geo.json",
+      "sha256": "9fd69e490199646e1541dde4eacdd15123ff050c4a07eda60b31c485aadb88a8"
+    },
+    {
+      "file": "ravager.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/ravager.geo.json",
+      "sha256": "6fd22596fa0ce8364e1df714ca9e7642b09675b0dce22cefd72eb98caeacc894"
+    },
+    {
+      "file": "creaking.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/creaking.geo.json",
+      "sha256": "2a2d3110b7520abc861f27013bd13baaafb553013c81f4b84be92d9128179881"
+    },
+    {
+      "file": "villager.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/villager.geo.json",
+      "sha256": "21e69d8ce3abcdac543362f38e2deb08dd03fc1390954f15350422fa765325df"
+    },
+    {
+      "file": "zombie_pigman.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/zombie_pigman.geo.json",
+      "sha256": "40768d0c9036487a07dde90f3034a0f6039d4ad59507d537f9b9eb934ce99816"
+    },
+    {
+      "file": "magma_cube_v2.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/models/entity/magma_cube_v2.geo.json",
+      "sha256": "35c26f228bbc06775c551d8dd0e8439011c473c1fafd33cad451d63dca6cdd1e"
+    }
+  ],
+  "textures": [
+    {
+      "file": "zombie-villager.png",
+      "jarPath": "assets/minecraft/textures/entity/zombie_villager/zombie_villager.png",
+      "sha256": "5a6a0f6f3ebecdbdf25de91714db9de85f9c4cc1946aaf593f5b0acf555f6ee0",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "zombie-villager-plains.png",
+      "jarPath": "assets/minecraft/textures/entity/zombie_villager/type/plains.png",
+      "sha256": "6704fc6e6028bea4ebcbf767be11acfd62af4b4f84782a4c7dbdde269dc0571f",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "wither-skeleton.png",
+      "jarPath": "assets/minecraft/textures/entity/skeleton/wither_skeleton.png",
+      "sha256": "0be837feee8359ee76df0bc4ba6f423053e5683f9c7d6d553a255fe14f2b8e1d",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "bogged.png",
+      "jarPath": "assets/minecraft/textures/entity/skeleton/bogged.png",
+      "sha256": "1097acbb1baeb1ff9cdb323bd925b077d10fbc42ccbcb9bd1233e9f1791a3a79",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "bogged-overlay.png",
+      "jarPath": "assets/minecraft/textures/entity/skeleton/bogged_overlay.png",
+      "sha256": "1acf5b13b0e5bb9928140b1b4250699d535e41765852eeee4d10723a5bd3d71c",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "pillager.png",
+      "jarPath": "assets/minecraft/textures/entity/illager/pillager.png",
+      "sha256": "3ab515ec1aff8db061bb887d80b4757e673b66e22259be3643ea252da83bb963",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "vindicator.png",
+      "jarPath": "assets/minecraft/textures/entity/illager/vindicator.png",
+      "sha256": "a82d0f7012c464b9421708bd9b4fc1d742c8149512c3be47a315bc67466d0618",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "evoker.png",
+      "jarPath": "assets/minecraft/textures/entity/illager/evoker.png",
+      "sha256": "34c0b8e60888982bbfb187ebd99e1b0ae70252235c6246ca767ff450c4211435",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "illusioner.png",
+      "jarPath": "assets/minecraft/textures/entity/illager/illusioner.png",
+      "sha256": "f43b9eecec0f7c846f673297c5ceff16b091359c589b8646abf82c5308bbfa75",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "witch.png",
+      "jarPath": "assets/minecraft/textures/entity/witch.png",
+      "sha256": "c22f075ec24a49d3b2f108432c098d7d4b52e266b1b6da6aa5de6cda5cf01af4",
+      "dimensions": [
+        64,
+        128
+      ]
+    },
+    {
+      "file": "enderman.png",
+      "jarPath": "assets/minecraft/textures/entity/enderman/enderman.png",
+      "sha256": "ac2a712566f11083a7e7f44ca904088662157144d35e764002be04fc9c34d50c",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "enderman-eyes.png",
+      "jarPath": "assets/minecraft/textures/entity/enderman/enderman_eyes.png",
+      "sha256": "f6fc9f458102d8cbe33e2895a725e4348026b02dde9deff460fe657ef79f9674",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "slime.png",
+      "jarPath": "assets/minecraft/textures/entity/slime/slime.png",
+      "sha256": "c724fc4eb07da3e2e10cc4b269d554bfb19271a560e2dbd4b74f71fae050f955",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "magma-cube.png",
+      "jarPath": "assets/minecraft/textures/entity/slime/magmacube.png",
+      "sha256": "a45640114edf6384b6b9e395b8ef57d7e1293ba7a54312f5b07c4ec3a69d689e",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "blaze.png",
+      "jarPath": "assets/minecraft/textures/entity/blaze.png",
+      "sha256": "ed70f0215135bb836379e068b3b4fe1f2f792d5c6b94f1a4cd48b4f91015eee5",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "breeze.png",
+      "jarPath": "assets/minecraft/textures/entity/breeze/breeze.png",
+      "sha256": "170ddaf1ceb5c9f408e63d36ba5591793653ee82952152ff7599ea0749b0d017",
+      "dimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "breeze-eyes.png",
+      "jarPath": "assets/minecraft/textures/entity/breeze/breeze_eyes.png",
+      "sha256": "aa546385c5bb35e1d51520ba1430ea88f8a5e60ab326218e8cc6cfe70bf555c2",
+      "dimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "breeze-wind.png",
+      "jarPath": "assets/minecraft/textures/entity/breeze/breeze_wind.png",
+      "sha256": "3806786d064423bad912f5b8ec3c4898365ec8178dca2dddefc047bb5d01eb21",
+      "dimensions": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "ghast.png",
+      "jarPath": "assets/minecraft/textures/entity/ghast/ghast.png",
+      "sha256": "50bb277c7bd76b95501845b30d4245bd51c8169e86b819edf47627efe104bd4a",
+      "dimensions": [
+        128,
+        64
+      ]
+    },
+    {
+      "file": "phantom.png",
+      "jarPath": "assets/minecraft/textures/entity/phantom.png",
+      "sha256": "97fe36ce3dcf0ec7a1a32c59379e51a959e3963e85dd43b74751d22a2fa607fa",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "phantom-eyes.png",
+      "jarPath": "assets/minecraft/textures/entity/phantom_eyes.png",
+      "sha256": "7822a936cb20c677fb85789c7fbef2f15d54b41800f90723d2d00bc4b49a2102",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "silverfish.png",
+      "jarPath": "assets/minecraft/textures/entity/silverfish.png",
+      "sha256": "be4837e2c8bd3b0bf1d9631c15fdfd8dee85882b84772bf7649438ea90c6ff83",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "endermite.png",
+      "jarPath": "assets/minecraft/textures/entity/endermite.png",
+      "sha256": "6e9d9fcd55bac4656af16733405b8c6c11ad65426331a52de27c483adb2e1b16",
+      "dimensions": [
+        64,
+        32
+      ]
+    },
+    {
+      "file": "guardian.png",
+      "jarPath": "assets/minecraft/textures/entity/guardian.png",
+      "sha256": "c380cd88ced49e0496d293b9527dc49dce4946a358aea9eff588f4756732053d",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "shulker.png",
+      "jarPath": "assets/minecraft/textures/entity/shulker/shulker.png",
+      "sha256": "0d89ea9689d831b3af581da2994de5fcd95b377413d7f1f0ca01a8be60c9c4f0",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "vex.png",
+      "jarPath": "assets/minecraft/textures/entity/illager/vex.png",
+      "sha256": "692f8906bf07f01aba5e628489542d794fb9d993f44cf3f37942a7c2eeb46e74",
+      "dimensions": [
+        32,
+        32
+      ]
+    },
+    {
+      "file": "hoglin.png",
+      "jarPath": "assets/minecraft/textures/entity/hoglin/hoglin.png",
+      "sha256": "6cdc76cc3f9c5510d5f3a28ea52b55c8c7418815fa09dc8ad50a58925590da11",
+      "dimensions": [
+        128,
+        64
+      ]
+    },
+    {
+      "file": "zoglin.png",
+      "jarPath": "assets/minecraft/textures/entity/hoglin/zoglin.png",
+      "sha256": "c9362df5e8e7e52f46f32433a94123a96d2c9bf4fef3c628f06f402c90588f76",
+      "dimensions": [
+        128,
+        64
+      ]
+    },
+    {
+      "file": "piglin.png",
+      "jarPath": "assets/minecraft/textures/entity/piglin/piglin.png",
+      "sha256": "6ba539fa4ae905fd95f95984aec2845992fa92c748765ac9da0c01800d8ce69f",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "piglin-brute.png",
+      "jarPath": "assets/minecraft/textures/entity/piglin/piglin_brute.png",
+      "sha256": "6c93d3cc51c8ef44895db795a58a5c365200537dfee44d8b73deeb889a0678c2",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "zombified-piglin.png",
+      "jarPath": "assets/minecraft/textures/entity/piglin/zombified_piglin.png",
+      "sha256": "6b2b623bd785c1df394841628f21970fba439181cc05b92ff5d3e2927d4670f4",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "ravager.png",
+      "jarPath": "assets/minecraft/textures/entity/illager/ravager.png",
+      "sha256": "31dde5d0678b781babb511a4aae38980316935d9aa8f4073e07551a44b8638cc",
+      "dimensions": [
+        128,
+        128
+      ]
+    },
+    {
+      "file": "creaking.png",
+      "jarPath": "assets/minecraft/textures/entity/creaking/creaking.png",
+      "sha256": "bc9a96b9a6f7043e2332a32dccfd468b87de8a472c2cbb445c1305ef8370e080",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "creaking-eyes.png",
+      "jarPath": "assets/minecraft/textures/entity/creaking/creaking_eyes.png",
+      "sha256": "09595ddcfc80e7852d30532279f9f4930ab635a233de4616d75c18cbb1725016",
+      "dimensions": [
+        64,
+        64
+      ]
+    },
+    {
+      "file": "ghast-bedrock.png",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/textures/entity/ghast/ghast.png",
+      "sha256": "79f5d39c267f7904ca15d7d3ae6f7260cc2cb6eec698a8ebfe0a42edd00c1455",
+      "dimensions": [
+        128,
+        64
+      ]
+    },
+    {
+      "file": "item-crossbow.png",
+      "jarPath": "assets/minecraft/textures/item/crossbow_standby.png",
+      "sha256": "6ea28ffcdf20314406cfaddcf9c1684523ff27211a482e6a709c2bd4543bb468",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "item-iron-axe.png",
+      "jarPath": "assets/minecraft/textures/item/iron_axe.png",
+      "sha256": "8dea40bac06c6f14bb0ad9e8b47de63250f6d6a46ae9439b85ddd1377f1edb49",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "item-golden-axe.png",
+      "jarPath": "assets/minecraft/textures/item/golden_axe.png",
+      "sha256": "10fd193bd09d53ed497ccf3e60e3aa06c504dd580d40a03bacaa03ac71b2d80b",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "item-golden-sword.png",
+      "jarPath": "assets/minecraft/textures/item/golden_sword.png",
+      "sha256": "fe02861c6a870269a16432a867b67e09cf8a417a56d060e053c921ffaf4aa988",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "item-stone-sword.png",
+      "jarPath": "assets/minecraft/textures/item/stone_sword.png",
+      "sha256": "44fe7d80120c30eb678ea605bdc4b1bf8b6475e287703a0403d9a5bd7bedf982",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "item-iron-sword.png",
+      "jarPath": "assets/minecraft/textures/item/iron_sword.png",
+      "sha256": "455f2c306a9ddc1da19b04603ae0047211e2f4e4817b105573fcdc29b3c6945f",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "item-potion.png",
+      "jarPath": "assets/minecraft/textures/item/potion.png",
+      "sha256": "6a09a39bb6c41bc92bd5eca1f51caf5b582a85f68206b164476c8e14a4669416",
+      "dimensions": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "item-potion-overlay.png",
+      "jarPath": "assets/minecraft/textures/item/potion_overlay.png",
+      "sha256": "606f372ad8b832a8659c54adb5da0ace0bcc74b471b84211076197cb3c557043",
+      "dimensions": [
+        16,
+        16
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "file": "blaze.animation.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/animations/blaze.animation.json",
+      "sha256": "8a6a3bdd5b86e78d457cfe88a9714fb38dd4303f744268d14dd42bec09c33569"
+    },
+    {
+      "file": "enderman.animation.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/15701fa9c13923f12662984c32c124327e40e3d3/resource_pack/animations/enderman.animation.json",
+      "sha256": "c6ef4c453576ba219d8731624fb2d10736afee40e3182e974bae386ba60ebbd7"
+    }
+  ]
+}

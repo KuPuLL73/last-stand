@@ -1,0 +1,103 @@
+/* Large concept illustrations, compact live bonuses, true next-rank stars. */
+body #upgrade-overlay { padding: 20px; background: #040811c7; backdrop-filter: blur(7px); }
+body #upgrade-overlay .upgrade-sheet { width: min(1090px,96vw); max-height: calc(100dvh - 40px); padding: 5px 10px 15px; border: 0; border-image: none; background: none; box-shadow: none; overflow-y: auto; overflow-x: hidden; touch-action: pan-y; overscroll-behavior: contain; }
+body #upgrade-overlay .upgrade-sheet h2 { margin: 0 0 7px; text-align: center; font-size: clamp(25px,3vw,36px); }
+body #upgrade-overlay .upgrade-sheet > p { margin: 0 0 22px; text-align: center; font-size: 13px; color: #c4cbd3; }
+body #upgrade-overlay #upgrade-choices { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; align-items: stretch; }
+body #upgrade-overlay .upgrade-choice {
+ position: relative; display: flex; flex-direction: column; align-items: center; min-width: 0; min-height: 450px; padding: 10px 10px 19px;
+ border: 24px solid transparent; border-image: url('./assets/upgrades/card-frame.webp') 160 / 24px / 0 stretch; border-radius: 0;
+ background: #101821; background-clip: padding-box; color: #f1f3f0; box-shadow: 0 12px 30px #0006; text-align: center; isolation: isolate; overflow: visible;
+ transition: transform .16s,filter .16s,box-shadow .16s; touch-action: pan-y;
+}
+body #upgrade-overlay .upgrade-choice:nth-child(2) { background: #101821; background-clip: padding-box; }
+body #upgrade-overlay .upgrade-choice::after { content: none; }
+body #upgrade-overlay .upgrade-choice:hover { transform: translateY(-5px); filter: brightness(1.09); box-shadow: 0 12px 34px #0008; }
+body #upgrade-overlay .upgrade-choice:active { transform: translateY(0) scale(.985); }
+body #upgrade-overlay .upgrade-choice:focus-visible { outline: 3px solid #fff0aa; outline-offset: 3px; }
+body #upgrade-overlay .upgrade-stars { display: flex; align-items: center; justify-content: center; gap: 3px; height: 25px; flex: none; margin: 0 0 9px; }
+body #upgrade-overlay .upgrade-stars img { display: block; width: 24px; height: 24px; object-fit: contain; }
+body #upgrade-overlay .upgrade-stars .locked { filter: grayscale(1) brightness(.48); opacity: .55; }
+body #upgrade-overlay .upgrade-stars .next { filter: drop-shadow(0 0 4px #ffc84b); }
+body #upgrade-overlay .upgrade-choice > .upgrade-icon { position: static; display: block; flex: none; width: 100%; height: clamp(170px,20vw,240px); max-width: 280px; margin: 0 auto 14px; padding: 0; border: 0; border-radius: 0; background: none; box-shadow: none; transform: none; overflow: visible; }
+body #upgrade-overlay .upgrade-icon > img { display: block; width: 100%; height: 100%; object-fit: contain; }
+body #upgrade-overlay .upgrade-choice > b { display: block; margin: 0 0 12px; font-family: Tektur,Arial,sans-serif; font-size: clamp(17px,1.8vw,23px); font-weight: 900; line-height: 1.2; color: #f6cf75; letter-spacing: 0; text-shadow: 0 2px 1px #0006; }
+body #upgrade-overlay .upgrade-choice > p { display: flex; flex-direction: column; gap: 5px; margin: 0; color: #e8edf0; font-family: Arial,Helvetica,sans-serif; font-size: 14px; line-height: 1.3; letter-spacing: 0; }
+body #upgrade-overlay .bonus-primary { color: #e5fff5; font-size: 18px; font-weight: 700; }
+body #upgrade-overlay .bonus-secondary { color: #c5cfd6; }
+body #upgrade-overlay .upgrade-choice kbd { position: absolute; top: 4px; right: 2px; display: grid; place-items: center; width: 23px; height: 23px; padding: 0; border: 1px solid #7c75594d; border-radius: 3px; background: #17202c; color: #c8c3a6; font-size: 11px; }
+.build-chip > .upgrade-art-icon { display: block; width: 100%; height: 100%; object-fit: contain; }
+[data-combination="echo-wave"] { --combo-accent:#92f5e1; --combo-light:#368f9e; --combo-ink:#101d29; }
+[data-combination="fire-ricochet"] { --combo-accent:#ffc683; --combo-light:#ae589e; --combo-ink:#201729; }
+[data-combination="shrapnel-line"] { --combo-accent:#ffdb86; --combo-light:#ae7242; --combo-ink:#241c1b; }
+body #upgrade-overlay .combo-progress {
+ display:flex; justify-content:center; align-items:center; flex-wrap:wrap; gap:5px 12px;
+ width:fit-content; max-width:100%; margin:-10px auto 16px; padding:3px 10px;
+ color:var(--combo-accent); background:#0b1521; border:1px solid #75829166; border-radius:4px;
+}
+body #upgrade-overlay .combo-progress > b { font-size:12px; font-weight:700; }
+body #upgrade-overlay .combo-ingredients { display:flex; justify-content:center; align-items:center; gap:6px; min-width:0; }
+body #upgrade-overlay .combo-ingredient {
+ display:flex; align-items:center; gap:3px; padding:0 4px 0 1px;
+ color:#dde5eb; border:1px solid #9cabb536; border-radius:3px; background:#0a121c;
+ font:700 11px Arial,sans-serif; font-variant-numeric:tabular-nums;
+}
+body #upgrade-overlay .combo-ingredient[data-complete="true"] { color:var(--combo-accent); border-color:var(--combo-light); }
+body #upgrade-overlay .combo-ingredient img { width:25px; height:25px; object-fit:contain; }
+body #upgrade-overlay .combo-plus { color:var(--combo-accent); font-size:12px; }
+body #upgrade-overlay .upgrade-choice[data-combination] {
+ background:radial-gradient(ellipse at 50% 40%,color-mix(in srgb,var(--combo-light),var(--combo-ink) 73%),var(--combo-ink) 72%);
+ background-clip:padding-box;
+ box-shadow:inset 0 0 0 1px var(--combo-light),0 12px 30px #0006,0 0 20px color-mix(in srgb,var(--combo-light),transparent 70%);
+}
+body #upgrade-overlay .upgrade-choice[data-combination] .upgrade-name { color:var(--combo-accent); }
+body #upgrade-overlay .upgrade-choice[data-combination] .upgrade-stars .next { filter:drop-shadow(0 0 4px var(--combo-accent)); }
+body #upgrade-overlay .upgrade-choice[data-combination] > .combo-ingredients { margin-top:11px; }
+body #upgrade-overlay .combo-ribbon {
+ margin:0 0 5px; padding:3px 9px; border:1px solid var(--combo-light); border-radius:3px;
+ background:var(--combo-ink); color:var(--combo-accent); font-size:10px; line-height:1.15;
+ font-weight:800; letter-spacing:.6px; text-transform:uppercase;
+}
+#build-items .build-chip[data-combination] { border-color:var(--combo-light); }
+#build-items .build-chip[data-combination][data-ready="true"] { box-shadow:0 0 8px var(--combo-light); }
+#build-items .build-chip[data-combination]::after {
+ content:''; position:absolute; left:2px; right:2px; bottom:1px; height:2px;
+ background:var(--combo-accent); transform:scaleX(var(--combo-charge,1)); transform-origin:left; pointer-events:none;
+}
+#lobby-panel .combo-help .upgrade-art-icon { width:100%; height:100%; object-fit:contain; }
+@media(max-width:600px) and (min-height:541px) {
+ body #upgrade-overlay { padding: 12px 6px; }
+ body #upgrade-overlay .upgrade-sheet { width: 100%; max-height: calc(100dvh - 24px); padding: 2px 7px 8px; }
+ body #upgrade-overlay .upgrade-sheet h2 { font-size: 26px; }
+ body #upgrade-overlay .upgrade-sheet > p { font-size: 12px; margin-bottom: 14px; }
+ body #upgrade-overlay #upgrade-choices { grid-template-columns: minmax(0,1fr); gap: 12px; }
+ body #upgrade-overlay .upgrade-choice { min-height: 0; padding: 2px 9px 10px; border-width: 17px; border-image-width: 17px; }
+ body #upgrade-overlay .upgrade-stars { height: 17px; margin-bottom: 2px; gap: 2px; }
+ body #upgrade-overlay .upgrade-stars img { width: 19px; height: 19px; }
+ body #upgrade-overlay .upgrade-choice > .upgrade-icon { width: 150px; height: 125px; margin-bottom: 5px; }
+ body #upgrade-overlay .upgrade-choice > b { font-size: 19px; margin-bottom: 7px; }
+ body #upgrade-overlay .upgrade-choice > p { gap: 3px; font-size: 13px; margin: 0; line-height: 1.25; }
+ body #upgrade-overlay .bonus-primary { font-size: 16px; }
+ body #upgrade-overlay .upgrade-choice kbd { display: none; }
+ body #upgrade-overlay .combo-progress { margin:-5px auto 12px; }
+}
+@media(max-height:540px) {
+ body #upgrade-overlay { padding: 8px 10px; }
+ body #upgrade-overlay .upgrade-sheet { width: min(1000px,98vw); max-height: calc(100dvh - 16px); padding: 0 5px 6px; }
+ body #upgrade-overlay .upgrade-sheet h2 { font-size: 23px; margin-bottom: 3px; }
+ body #upgrade-overlay .upgrade-sheet > p { font-size: 11px; margin-bottom: 10px; }
+ body #upgrade-overlay #upgrade-choices { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+ body #upgrade-overlay .upgrade-choice { min-height: 0; padding: 2px 5px 10px; border-width: 16px; border-image-width: 16px; }
+ body #upgrade-overlay .upgrade-stars { height: 17px; margin-bottom: 2px; gap: 2px; }
+ body #upgrade-overlay .upgrade-stars img { width: 18px; height: 18px; }
+ body #upgrade-overlay .upgrade-choice > .upgrade-icon { height: clamp(90px,29vh,145px); width: 100%; margin-bottom: 5px; }
+ body #upgrade-overlay .upgrade-choice > b { font-size: 16px; margin-bottom: 7px; }
+ body #upgrade-overlay .upgrade-choice > p { font-size: 11px; gap: 3px; margin: 0; line-height: 1.2; }
+ body #upgrade-overlay .bonus-primary { font-size: 13px; }
+ body #upgrade-overlay .upgrade-choice kbd { display: none; }
+ body #upgrade-overlay .combo-progress { margin:-3px auto 8px; }
+ body #upgrade-overlay .upgrade-choice[data-combination] > .upgrade-icon { height:clamp(76px,25vh,128px); }
+ body #upgrade-overlay .upgrade-choice[data-combination] > .combo-ingredients { margin-top:5px; }
+ body #upgrade-overlay .combo-ribbon { padding:2px 7px; font-size:9px; margin-bottom:3px; }
+}
+@media(prefers-reduced-motion:reduce) { body #upgrade-overlay .upgrade-choice { transition: none; } }

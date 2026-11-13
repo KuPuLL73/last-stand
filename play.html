@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#102d36"><title>Шелли — тренировочный полигон</title></head>
+<body>
+<div id="world" aria-label="Трёхмерная тренировочная арена"></div>
+<div id="hud" class="hud">
+ <div class="pilot"><img src="./shelly/reference/shelly-official-render.png" alt=""><div><span id="arena-label">ТРЕНИРОВОЧНЫЙ ПОЛИГОН</span><strong>ШЕЛЛИ</strong><small id="status-label">Разминка перед большим боем</small></div></div>
+ <div class="score"><div><span id="hit-label">ПОПАДАНИЯ</span><b id="hit-count">0</b></div><div><span id="target-label">МИШЕНИ</span><b id="target-count">0</b></div></div>
+ <div class="top-actions"><button id="sound" aria-label="Звук" aria-pressed="true">♪</button><button id="pause" aria-label="Пауза">Ⅱ</button></div>
+</div>
+<div class="arena-name"><i></i><span id="range-label">ПЕСЧАНЫЙ РУБЕЖ</span><small>01 / SHELLY</small></div>
+<div id="toast" aria-live="polite"></div><div id="damage-layer" aria-hidden="true"></div>
+<div class="bottom-hud"><div class="ammo-panel"><span id="ammo-label">ДРОБОВИК</span><div id="ammo"><i></i><i></i><i></i></div><small id="ammo-state">3 / 3</small></div><div class="control-guide" id="control-guide"><span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> движение</span><span>Мышь — прицел · ЛКМ / <kbd>Пробел</kbd> — выстрел</span></div><button id="reset" title="Сбросить мишени">↻ <span>Сначала</span></button></div>
+<div id="touch-controls"><div class="stick-zone move-zone"><div id="move-stick" class="stick" aria-label="Джойстик движения"><i></i><span>↕</span></div><small id="move-label">ДВИЖЕНИЕ</small></div><div class="stick-zone fire-zone"><div id="fire-stick" class="stick fire-stick" role="button" tabindex="0" aria-label="Прицел и выстрел"><i></i><span>✦</span></div><small id="fire-label">ПРИЦЕЛ И ОГОНЬ</small></div></div>
+<div id="shade" class="shade"><section class="start-card"><div class="card-kicker" id="card-kicker">ПЕРВАЯ ТРЕНИРОВКА</div><h1 id="card-title">ПОРА<br><em>РАЗМЯТЬСЯ.</em></h1><p id="card-description">Пройди по полигону, найди удобную позицию<br>и испытай дробовик на мишенях.</p><div class="card-controls" id="card-controls"><b>WASD / стрелки</b><span>ходьба</span><b>Мышь + ЛКМ</b><span>прицел и выстрел</span><b>Пробел</b><span>стрельба по ближайшей мишени</span></div><button id="start" disabled><span id="start-text">ЗАГРУЖАЕМ ШЕЛЛИ…</span><span>↗</span></button><small id="build-label">Тест механик · без рекламы и покупок</small></section><div class="vertical-label">SHELLY / PRACTICE SESSION</div></div>
+<script type="module" src="/game/arena.js"></script>
+</body></html>

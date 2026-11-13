@@ -1,0 +1,9 @@
+import{chromium}from'@playwright/test';import{writeFile,mkdir}from'node:fs/promises';
+const browser=await chromium.launch({args:['--enable-webgl','--ignore-gpu-blocklist']}),errors=[],observations=[];const output='game/artifacts/';await mkdir(output,{recursive:true});
+for(const viewport of[{width:1400,height:900},{width:390,height:844}]){
+ const c=await browser.newContext({viewport,hasTouch:viewport.width<500,isMobile:viewport.width<500,deviceScaleFactor:1});await c.addInitScript(()=>{localStorage.setItem('survival-map','cubic');localStorage.setItem('survival-character','steve');});const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:5190/survival.html');await p.waitForFunction(()=>document.body.dataset.ready==='true');await p.locator('#start').click();
+ await p.evaluate(()=>{const r=window.__survivalTest.run;r._spawnClock=999;r.state.enemies=[];r.state.player.invulnerable=999;for(const[type,x,z]of[['walker',-2,3],['spitter',3,4],['runner',-3,7.5],['creeper',4,8]]){const e=r._spawnEnemy(type,x,z);e.speed=0;}r.update=()=>{};});await p.waitForTimeout(700);observations.push(await p.evaluate(()=>({width:innerWidth,height:innerHeight,scrollWidth:document.documentElement.scrollWidth,map:window.__survivalTest.run.state.map,obstacles:window.__survivalTest.run.obstacles})));await p.screenshot({path:output+`cubic-map-after-${viewport.width<500?'mobile':'desktop'}.png`});
+ if(viewport.width>500){await p.evaluate(()=>{window.__survivalTest.run.state.player.z=-5;});await p.waitForTimeout(1500);await p.screenshot({path:output+'cubic-map-after-north.png'});}
+ await c.close();
+}
+await browser.close();await writeFile(output+'cubic-map-results.json',JSON.stringify({errors,observations},null,2));console.log(JSON.stringify({errors,observations}));

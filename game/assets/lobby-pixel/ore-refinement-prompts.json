@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-02",
+  "method": "built-in image_gen; no CLI fallback",
+  "purpose": "Finish interrupted art cleanup: readable embedded ore textures, keep repaired terrain and background composition.",
+  "edits": [
+    {
+      "file": "game/assets/lobby-pixel/world-polished-v2.webp",
+      "source": "game/assets/lobby-pixel/world-polished-v2-source.png",
+      "input": "game/assets/lobby-pixel/world-polished.webp",
+      "prompt": "Edit image 1, the existing landscape game background, with surgical local corrections only. This is a production videogame background texture, not a new scene. Keep the exact full 1672x941 landscape composition, camera, scale, portal position, platform, river/waterfall, trees, castles, sky, lighting, colors and already repaired clean block steps UNCHANGED. Change only the gray cubic ore blocks on the lower-left green island next to the water and the floating ore blocks below it. Their current yellow/cyan marks resemble random blurry sparks and confetti. Repaint every visible face as coherent crisp voxel ore: square stone pixel grid with a handful of SMALL square yellow-gold mineral clusters embedded FLUSH in the stone, consistent pixel scale, rectangular mineral pixels in perspective with each cube face. Cyan ore can have cyan rectangular insets. No floating flecks, no blurry dots, no streaks, no bloom spilling outside these blocks, no carved eyes or face motifs. Keep cube geometry straight, top and side planes consistent and separated by clean edges. Do not redesign or move the blocks. Also ensure nearby tiny block edges remain straight, not melted. Preserve the mist and all other scenery. NO characters, no interface, no text, no extra rings or sparks. Return the entire corrected landscape background at the same aspect ratio."
+    },
+    {
+      "file": "game/assets/lobby-pixel/world-mobile-polished-v2.webp",
+      "source": "game/assets/lobby-pixel/world-mobile-polished-v2-source.png",
+      "input": "game/assets/lobby-pixel/world-mobile-polished.webp",
+      "prompt": "Image 1 is the edit target: existing 941x1672 portrait production videogame background. Make ONLY a precise local correction to all the small cubic ore blocks along the left grassy island and waterfall, including cubes at the bottom left and the single cube near the left side of the central platform. Their yellow/cyan marks currently look like blurry random spark flecks. Repaint the visible faces as consistent crisp voxel ore textures: small rectangular/square gold or cyan mineral pixel clusters embedded flush in gray pixelated stone, all aligned to each cube face in correct perspective. Clean straight cube edges, each top/side plane clearly defined, no bright dots floating outside, no glow spill, no confetti, no streaks, no facial patterns. Preserve EXACT full portrait composition, object positions and scale, the already repaired red island steps, castles, portal position/size, platform, river, water, trees, sky, fog, colors and lighting. Do not crop or zoom. Do not alter the center platform. Do not add characters, labels, interface, new props, extra portals, static sparks. Return the entire corrected portrait background at the original aspect ratio."
+    }
+  ]
+}

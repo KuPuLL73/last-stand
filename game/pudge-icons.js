@@ -1,0 +1,8 @@
+let serial=0;
+export function pudgeIcon(kind='rot'){
+ const uid=`pudge-${++serial}`,fill=`url(#${uid})`;let art='';
+ if(kind==='rot')art=`<path d="M15 55c-15-8-8-26 4-25-4-17 18-25 27-12 12-9 27 6 18 17 13 13-3 31-16 24-9 12-26 10-33-4Z" fill="${fill}"/><path d="M23 38c-1-17 26-18 27-2 0 7-4 10-7 12v8H29v-8c-4-2-6-5-6-10Z" fill="#e5dfb2"/><path d="m28 34 7 3-2 6-7-3Zm16 0-7 3 2 6 7-3Z" fill="#45552d"/><path d="m36 42-3 5h6Z" fill="#45552d"/><path d="M32 53v5m7-5v5M16 20l-3-5m42 6 5-5M13 49l-5 1" fill="none" stroke="#d4dfa4" stroke-width="3"/>`;
+ else if(kind==='hook')art=`<path d="m41 8 10 6-7 12-10-6Z" fill="#acb3a1"/><path d="m32 20 10 6-7 12-10-6Z" fill="#c4c9b8"/><path d="M29 32v15c0 16 25 16 25 0v-8l-10 12 2-13" fill="none" stroke="#243832" stroke-width="14"/><path d="M29 32v15c0 16 25 16 25 0v-8l-10 12 2-13" fill="none" stroke="#b5bda4" stroke-width="8"/><path d="m48 13 10-9m-2 20 9-2" stroke="#d9d19a" stroke-width="3"/>`;
+ else art=`<g transform="rotate(28 36 36)"><path d="M18 7h36v32c-9 8-23 7-36 2Z" fill="#c9ceba"/><path d="M19 8h34v7H19Z" fill="#e9ecd8"/><circle cx="25" cy="22" r="3" fill="#52614c"/><path d="M30 44h13v21H30Z" fill="#775035"/><path d="M33 48h7m-7 7h7m-7 6h7" stroke="#b39a63" stroke-width="2"/></g>`;
+ return`<svg class="survival-icon" viewBox="0 0 72 72" data-icon="${kind}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="${uid}" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7dd85"/><stop offset="1" stop-color="#6e8d3d"/></linearGradient></defs><ellipse cx="37" cy="65" rx="23" ry="4" fill="#172c2c" opacity=".25"/><g stroke="#263b35" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">${art}</g></svg>`;
+}

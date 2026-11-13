@@ -1,0 +1,14 @@
+{
+  "bow": {
+    "archive": "C:\\Users\\PC\\AppData\\Local\\Temp\\minecraft-1.21.9-client.jar",
+    "entry": "assets/minecraft/textures/item/bow.png",
+    "sha256": "1e2cb18545e4ed9286e1120686c3f835d6619b8bd853970f1011163b68426a54"
+  },
+  "pause": {
+    "source": "https://unpkg.com/pixelarticons@2.4.2/svg/pause.svg",
+    "library": "Pixelarticons 2.4.2",
+    "license": "MIT",
+    "licenseFile": "../lobby-pixel/LICENSE.pixelarticons.txt",
+    "sha256": "a4b989e7bd38a0224faaf7b987c4ee858909a84c721d2b806ca4a20c8d467c46"
+  }
+}

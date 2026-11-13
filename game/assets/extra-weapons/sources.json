@@ -1,0 +1,28 @@
+{
+  "version": "1.21.9",
+  "archive": "C:\\Users\\PC\\AppData\\Local\\Temp\\minecraft-1.21.9-client.jar",
+  "clientSha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+  "items": [
+    {
+      "file": "snowball.png",
+      "archivePath": "assets/minecraft/textures/item/snowball.png",
+      "sha256": "4174e71270f6565b8a86483986c570dabe14227312d6bb4222082350b150bdb6"
+    },
+    {
+      "file": "trident.png",
+      "archivePath": "assets/minecraft/textures/item/trident.png",
+      "sha256": "2bb1397727939c03c0c5c87307e91b41246e8ffd1b0ceddd73c7cc40bb9cf19d"
+    },
+    {
+      "file": "trident_in_hand.json",
+      "archivePath": "assets/minecraft/models/item/trident_in_hand.json",
+      "sha256": "c4b6b74c51b2ccf06abfeee1aaf92c763cf61a33f56e1c65c241dd74a24a9ec0"
+    },
+    {
+      "file": "trident_throwing.json",
+      "archivePath": "assets/minecraft/models/item/trident_throwing.json",
+      "sha256": "1f13b8f2b0fde00e1b41105fd4eb41069bbb5dcd1d7cdfcd1928e56dd0885436"
+    }
+  ],
+  "notes": "Unmodified Mojang snowball/trident item art and original held/throw transforms. Game meshes are authored voxel extrusions of these item pixels; no claim that the generated-item extrusion is the Java entity mesh. Infinite slowing snowballs and a thrown piercing trident are this game's weapon roles."
+}

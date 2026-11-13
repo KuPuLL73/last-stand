@@ -1,0 +1,144 @@
+{
+  "method": "Built-in image_gen, transparent 2x2 atlas; deterministic quadrant crop and nearest-neighbour resize only. No artwork repainted.",
+  "reference": "reference/interface-achievements.png",
+  "sourceFile": "game/assets/interface/achievement-badges-source.png",
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "sourceSha256": "95c7bbcd4e4eea1fdae21560ae754685875e3478ca9f321774583682540884a3",
+  "outputs": [
+    {
+      "id": "first",
+      "file": "game/assets/interface/badge-first.png",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "transparentPixels": 45526,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "76f5ecf3801dc620464a37f215484bda614a1d1469191e40a6d403e850692cd3",
+      "atlasQuadrant": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "sharedCropInQuadrant": [
+        44,
+        40,
+        583,
+        579
+      ]
+    },
+    {
+      "id": "hunter",
+      "file": "game/assets/interface/badge-hunter.png",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "transparentPixels": 43544,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "be63ec8a460d6d7f4032e0aed0e026902da4760d59100542b39a89a5b51e84cc",
+      "atlasQuadrant": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "sharedCropInQuadrant": [
+        44,
+        40,
+        583,
+        579
+      ]
+    },
+    {
+      "id": "survivor",
+      "file": "game/assets/interface/badge-survivor.png",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "transparentPixels": 46678,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "e7d7e9ff599162aa847fc667619ee43a7b16a4634f7ce534c07ebd2b263fa168",
+      "atlasQuadrant": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "sharedCropInQuadrant": [
+        44,
+        40,
+        583,
+        579
+      ]
+    },
+    {
+      "id": "winner",
+      "file": "game/assets/interface/badge-winner.png",
+      "size": [
+        384,
+        384
+      ],
+      "mode": "RGBA",
+      "transparentPixels": 44188,
+      "alphaRange": [
+        0,
+        255
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "sha256": "4fe5116687f695b530cdff1d1b2f17f479d35b2a2bead1a386038142d5deab87",
+      "atlasQuadrant": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "sharedCropInQuadrant": [
+        44,
+        40,
+        583,
+        579
+      ]
+    }
+  ]
+}

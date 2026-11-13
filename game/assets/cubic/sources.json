@@ -1,0 +1,23 @@
+{
+  "version": "Minecraft Java 1.21.9",
+  "source": "https://piston-data.mojang.com/v1/objects/ce92fd8d1b2460c41ceda07ae7b3fe863a80d045/client.jar",
+  "tiles": [
+    "grass_block_top",
+    "grass_block_side",
+    "dirt",
+    "dirt_path_top",
+    "oak_log",
+    "oak_log_top",
+    "oak_leaves",
+    "stone",
+    "cobblestone",
+    "mossy_cobblestone",
+    "oak_planks",
+    "diamond_ore",
+    "coal_ore",
+    "water_still",
+    "glass",
+    "sand"
+  ],
+  "processing": "Original 16px pixels, biome tint for grass/leaves/water, padded texture atlas. New stage geometry is authored in cubic-stage.js."
+}

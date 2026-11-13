@@ -1,0 +1,23 @@
+{
+  "version": "1.21.9",
+  "manifest": "https://piston-meta.mojang.com/v1/packages/fdef6a1232ea4c98eba1e87194ed2f0be632aab7/1.21.9.json",
+  "client": {
+    "sha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+    "size": 30591861,
+    "url": "https://piston-data.mojang.com/v1/objects/ce92fd8d1b2460c41ceda07ae7b3fe863a80d045/client.jar"
+  },
+  "paths": [
+    "assets/minecraft/textures/entity/player/wide/steve.png",
+    "assets/minecraft/textures/item/bow_pulling_1.png",
+    "assets/minecraft/textures/item/arrow.png",
+    "assets/minecraft/textures/item/bow.png",
+    "assets/minecraft/textures/item/bow_pulling_0.png",
+    "assets/minecraft/textures/item/bowl.png",
+    "assets/minecraft/textures/item/diamond_sword.png",
+    "assets/minecraft/textures/item/bow_pulling_2.png",
+    "assets/minecraft/models/item/handheld.json",
+    "assets/minecraft/models/item/bow.json"
+  ],
+  "pose_reference": "https://github.com/Mojang/bedrock-samples/blob/main/resource_pack/animations/player.animation.json",
+  "geometry": "Original item pixels extruded one pixel; exact Java thirdperson_righthand display transforms, axis converted once."
+}

@@ -1,0 +1,30 @@
+{
+  "family": "Tektur",
+  "author": "Adam Jagosz",
+  "license": "OFL-1.1",
+  "repository": "https://github.com/hyvyys/Tektur",
+  "commit": "aa45c4b0c85d971d9df103337e37d6ed47b6f3d0",
+  "files": [
+    {
+      "file": "Tektur-Regular.woff2",
+      "weight": 400,
+      "source": "https://raw.githubusercontent.com/hyvyys/Tektur/aa45c4b0c85d971d9df103337e37d6ed47b6f3d0/fonts/webfonts/Tektur-Regular.woff2",
+      "bytes": 35824,
+      "sha256": "eb7f12a0d7d585ddc614f6a8b06a634f1f3727cfe241a64b0beb675aa3063a63"
+    },
+    {
+      "file": "Tektur-Medium.woff2",
+      "weight": 500,
+      "source": "https://raw.githubusercontent.com/hyvyys/Tektur/aa45c4b0c85d971d9df103337e37d6ed47b6f3d0/fonts/webfonts/Tektur-Medium.woff2",
+      "bytes": 37188,
+      "sha256": "f80dd6a9ee2d95ae04193bc60d36fde90b54c3bdec12395b69e5028163f81174"
+    },
+    {
+      "file": "Tektur-Black.woff2",
+      "weight": 900,
+      "source": "https://raw.githubusercontent.com/hyvyys/Tektur/aa45c4b0c85d971d9df103337e37d6ed47b6f3d0/fonts/webfonts/Tektur-Black.woff2",
+      "bytes": 36176,
+      "sha256": "bbe2630cf2424ca6d742ac6ae5b5d0ecb374ae85f691867f0e4181ba5a4acedf"
+    }
+  ]
+}

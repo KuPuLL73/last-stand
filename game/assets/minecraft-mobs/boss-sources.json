@@ -1,0 +1,83 @@
+{
+  "clientVersion": "Minecraft Java 1.21.9",
+  "clientSha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+  "clientUrl": "https://piston-data.mojang.com/v1/objects/ce92fd8d1b2460c41ceda07ae7b3fe863a80d045/client.jar",
+  "sources": [
+    {
+      "file": "wither_boss.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/models/entity/wither_boss.geo.json",
+      "sha256": "de2097edee50db825ca0d325fb9ec983e131ff249f5a39df3e1ec6e89cd3aae2"
+    },
+    {
+      "file": "wither_boss.animation.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/animations/wither_boss.animation.json",
+      "sha256": "359cb7f4d27d814503cfd179661c99e407d3f6e7d5529ae4286b38d24a7a4dcd"
+    },
+    {
+      "file": "warden.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/models/entity/warden.geo.json",
+      "sha256": "3ac7c8166152a254eab962b2c2803d7a13f33929cfb1c5777daf758f3f009664"
+    },
+    {
+      "file": "warden.animation.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/animations/warden.animation.json",
+      "sha256": "cf938237dee7f93f5b4aee2971647f548f02f4780bbf7413f4750064735d45ad"
+    },
+    {
+      "file": "guardian.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/models/entity/guardian.geo.json",
+      "sha256": "300bb0b5a087b5f75f76040a1afa26ad8b1a3b3d9000645bc729231e6be55bff"
+    },
+    {
+      "file": "guardian.animation.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/animations/guardian.animation.json",
+      "sha256": "d8e2c959c7a3a0146c6273a6243c9a81ff4a2a528b96f28b2b5c2f01b5919bdf"
+    },
+    {
+      "file": "ender_dragon.geo.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/models/entity/ender_dragon.geo.json",
+      "sha256": "07c9333dc913e046ed041143624a5eb30a33cb340fa07b10d507a8c95be608c6"
+    },
+    {
+      "file": "ender_dragon.animation.json",
+      "url": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/animations/ender_dragon.animation.json",
+      "sha256": "43a4cf19dfdc05a35216e1ff93d5905ef6da4058cc5b2eb9ea4508358fd05307"
+    },
+    {
+      "file": "wither.png",
+      "jarPath": "assets/minecraft/textures/entity/wither/wither.png",
+      "sha256": "586c375f7baacd8183951c2947238703c62a7666c423e596624fa665e3cb019e"
+    },
+    {
+      "file": "warden.png",
+      "jarPath": "assets/minecraft/textures/entity/warden/warden.png",
+      "sha256": "399a48b649b629555749c3c348fb4bd47d0e88ba28a5bda8738725825b40006c"
+    },
+    {
+      "file": "warden-bioluminescent.png",
+      "jarPath": "assets/minecraft/textures/entity/warden/warden_bioluminescent_layer.png",
+      "sha256": "7c41de39f822af32f4110af3747c01fbb508724f9282fccc31b20dde22c54e52"
+    },
+    {
+      "file": "guardian-elder.png",
+      "jarPath": "assets/minecraft/textures/entity/guardian_elder.png",
+      "sha256": "6aa3da2530a53c4c9d1a63ada991773e56260090d57bee5aad643f73fc11739a"
+    },
+    {
+      "file": "ender-dragon.png",
+      "jarPath": "assets/minecraft/textures/entity/enderdragon/dragon.png",
+      "sha256": "6133c12916bb6e4bfdc35389d52e79763d934bae827de90d66fdce2199f9d2f9"
+    },
+    {
+      "file": "ender-dragon-eyes.png",
+      "jarPath": "assets/minecraft/textures/entity/enderdragon/dragon_eyes.png",
+      "sha256": "0176003b84bd87daca9f39390ff33d7d4b3ccf8d391018c3aeb90e33671a6f4a"
+    },
+    {
+      "file": "zombie-brute.geo.json",
+      "source": "Original measured voxel geometry authored from user-provided zombie-brute reference. UV rectangles sample original zombie skin; no third-party custom model copied.",
+      "reference": "C:/Users/PC/AppData/Local/Temp/codex-clipboard-e26b3e39-5b17-4a6d-b405-96cab7530940.png",
+      "sha256": "fb7aef317f035ca7263f936c9ce4fb540d3a0f54952661f99b8b57b519b4eb6f"
+    }
+  ]
+}

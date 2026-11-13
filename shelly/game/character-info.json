@@ -1,0 +1,25 @@
+{
+  "animations": {
+    "Idle": {
+      "duration": 1.3333333730697632
+    },
+    "Walk": {
+      "duration": 1.0,
+      "channels": 141,
+      "static_channels": 51
+    },
+    "Attack": {
+      "duration": 1.1666666269302368,
+      "channels": 141,
+      "static_channels": 33
+    }
+  },
+  "geometry_source": "model/shelly.glb",
+  "animation_source": "https://github.com/tailsjs/brawl-stars-assets/tree/master/69.230/sc3d",
+  "static_grip_transforms": true,
+  "up_axis": "+Y",
+  "forward_axis": "+Z",
+  "idle_height": 3.9676995277404785,
+  "idle_floor_y": 0.11999988555908203,
+  "root_motion": false
+}

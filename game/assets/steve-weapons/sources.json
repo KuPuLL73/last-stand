@@ -1,0 +1,66 @@
+{
+  "version": "1.21.9",
+  "clientSha1": "ce92fd8d1b2460c41ceda07ae7b3fe863a80d045",
+  "items": [
+    {
+      "file": "wooden_sword.png",
+      "jarPath": "assets/minecraft/textures/item/wooden_sword.png",
+      "sha256": "8165dd48d392632563bfea87b2707371d2804031f1dcafcdee3a88a42a476cfc"
+    },
+    {
+      "file": "stone_sword.png",
+      "jarPath": "assets/minecraft/textures/item/stone_sword.png",
+      "sha256": "44fe7d80120c30eb678ea605bdc4b1bf8b6475e287703a0403d9a5bd7bedf982"
+    },
+    {
+      "file": "iron_sword.png",
+      "jarPath": "assets/minecraft/textures/item/iron_sword.png",
+      "sha256": "455f2c306a9ddc1da19b04603ae0047211e2f4e4817b105573fcdc29b3c6945f"
+    },
+    {
+      "file": "golden_sword.png",
+      "jarPath": "assets/minecraft/textures/item/golden_sword.png",
+      "sha256": "fe02861c6a870269a16432a867b67e09cf8a417a56d060e053c921ffaf4aa988"
+    },
+    {
+      "file": "diamond_sword.png",
+      "jarPath": "assets/minecraft/textures/item/diamond_sword.png",
+      "sha256": "5634a8cb79a70beb306210de9ec492fc2d4dc8f739372683e9882ef06bf63008"
+    },
+    {
+      "file": "netherite_sword.png",
+      "jarPath": "assets/minecraft/textures/item/netherite_sword.png",
+      "sha256": "8f1584739b0c4e9aa09f901bdfc9251a0a6fa1e0172b8c2a5a869e9fbaf25906"
+    },
+    {
+      "file": "stone_axe.png",
+      "jarPath": "assets/minecraft/textures/item/stone_axe.png",
+      "sha256": "907180316ed8fce73d54a42d915fb68e094dbff21a1790404925f3d3f15ef408"
+    },
+    {
+      "file": "iron_axe.png",
+      "jarPath": "assets/minecraft/textures/item/iron_axe.png",
+      "sha256": "8dea40bac06c6f14bb0ad9e8b47de63250f6d6a46ae9439b85ddd1377f1edb49"
+    },
+    {
+      "file": "diamond_axe.png",
+      "jarPath": "assets/minecraft/textures/item/diamond_axe.png",
+      "sha256": "c40234807156fa36f370037f93939c397be76672c2d55b20fb3026d04df97155"
+    },
+    {
+      "file": "netherite_axe.png",
+      "jarPath": "assets/minecraft/textures/item/netherite_axe.png",
+      "sha256": "aa1c6ff73e24c7a6fd06bc3ae59b4961ffd08d22fb51b7e2b93678ce82d5a1aa"
+    },
+    {
+      "file": "trident.png",
+      "jarPath": "assets/minecraft/textures/item/trident.png",
+      "sha256": "2bb1397727939c03c0c5c87307e91b41246e8ffd1b0ceddd73c7cc40bb9cf19d"
+    },
+    {
+      "file": "mace.png",
+      "jarPath": "assets/minecraft/textures/item/mace.png",
+      "sha256": "389119cde42a517b1bb217a9baa216285babfa9f3d8718e05b8b98a5349a45b1"
+    }
+  ]
+}

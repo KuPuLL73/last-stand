@@ -1,0 +1,10 @@
+import {chromium} from '@playwright/test';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({args:['--enable-webgl','--ignore-gpu-blocklist']});const page=await browser.newPage({viewport:{width:1400,height:1000}});const images={};const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:5190/game/artifacts/steve-preview.html');await page.waitForFunction(()=>document.body.dataset.ready==='true');await page.waitForTimeout(500);
+images['steve-sword-three-quarter']=await page.screenshot();
+await page.evaluate(()=>{window.__stevePreview.setFrozen(true);window.__stevePreview.setCamera(0,1.8,5.7);});await page.waitForTimeout(100);images['steve-front']=await page.screenshot();
+await page.evaluate(()=>{window.__stevePreview.setCamera(3.3,2.75,5.2);window.__stevePreview.pose(.15);});await page.waitForTimeout(100);images['steve-sword-strike']=await page.screenshot();
+await page.evaluate(()=>{window.__stevePreview.mode(true);window.__stevePreview.steve.update(0,{bowActive:true});});await page.waitForTimeout(100);images['steve-bow-three-quarter']=await page.screenshot();
+await page.waitForFunction(()=>!!window.__stevePreview);const data=await page.evaluate(async()=>Array.from(await window.__stevePreview.exportGLB()));
+const bowData=await page.evaluate(async()=>Array.from(await window.__stevePreview.exportGLB(true)));console.log(JSON.stringify({errors,glbBytes:data.length,bowGlbBytes:bowData.length}));await browser.close();await writeFile('game/assets/steve-bow.glb',new Uint8Array(bowData));await writeFile('game/assets/steve-diamond.glb',new Uint8Array(data));for(const[name,bytes]of Object.entries(images))await writeFile('game/artifacts/'+name+'.png',bytes);
